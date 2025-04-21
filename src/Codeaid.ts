@@ -1,4 +1,5 @@
 import Http from './modules/http/Http';
+import Inmutable from './modules/inmutable/Inmutable';
 import Number from './modules/number/Number';
 import String from './modules/string/String';
 
@@ -11,4 +12,5 @@ export default class Codeaid {
   static string = String;
   static http = Http;
   static number = Number;
+  static inmutable = Inmutable;
 }
